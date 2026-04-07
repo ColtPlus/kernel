@@ -13,7 +13,7 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq/linux-6.1.y-rockchip"
+        default: "ColtPlus/linux-rockchip@rk-6.1-rkr5.1"
         type: choice
         options:
           - unifreq/linux-6.1.y-rockchip
@@ -21,7 +21,7 @@ on:
           - ophub/linux-6.1.y-rockchip
           - ophub/linux-5.10.y-rk35xx
           - armbian/linux-rockchip@rk-6.1-rkr6.1
-          - armbian/linux-rockchip@rk-6.1-rkr5.1
+          - ColtPlus/linux-rockchip@rk-6.1-rkr5.1
       kernel_version:
         description: "Select kernel version"
         required: false
